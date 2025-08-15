@@ -36,3 +36,27 @@ The project features an **interactive Gradio interface** where users can upload 
 ---
 
 ## **📂 Project Structure**
+📦 CIFAR10-CNN-Classifier
+┣ 📄 cifar10_gradio_app.py # Main application
+┣ 📄 requirements.txt # Dependencies
+┗ 📄 README.md # Project documentation
+
+---
+
+## **⚡ How It Works**
+1. Loads **CIFAR-10 dataset** and preprocesses images.  
+2. Builds a **CNN model** with 3 convolutional layers, BatchNorm, and Dropout.  
+3. Trains with **data augmentation** for better accuracy.  
+4. Deploys a **Gradio app** for easy user interaction.  
+
+---
+
+## **🚀 Getting Started**
+
+### ✅ Clone the repository:
+```bash
+git clone https://github.com/your-username/CIFAR10-CNN-Classifier.git
+cd CIFAR10-CNN-Classifier
+
+
+
